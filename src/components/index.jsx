@@ -605,7 +605,7 @@ class MaterialUiPhoneNumber extends React.Component {
     const countryCode = selectedCountry.iso2.toUpperCase()
     const FlagComponent = () => (<img
       alt={countryCode}
-      src={`http://purecatamphetamine.github.io/country-flag-icons/3x2/${countryCode}.svg`}/>)
+      src={`https://storage.googleapis.com/kubershmuber-dev-sports-asia/country-flags/1x1/${countryCode}.svg`}/>)
 
     const dropdownProps = disableDropdown ? {} : {
       startAdornment: (
